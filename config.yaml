@@ -84,3 +84,8 @@ markup:
   tableOfContents:
     endLevel: 6
     startLevel: 2
+
+deployment:
+  targets:
+    name: "drakeBlog"
+    URL: "s3://blog.drakenor.com?region=us-west-1"
